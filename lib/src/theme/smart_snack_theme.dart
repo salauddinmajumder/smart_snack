@@ -12,7 +12,7 @@ class SmartSnackTypography {
 
   static const String primaryFontFamily = '.SF Pro Display';
   static const String fallbackFontFamily = 'Roboto';
-  
+
   // ═══════════════════════════════════════════════════════════════════════════
   // TEXT STYLES
   // ═══════════════════════════════════════════════════════════════════════════
@@ -111,19 +111,19 @@ class SmartSnackSpacing {
 
   /// Compact height (iPhone Dynamic Island style)
   static const double heightCompact = 40.0;
-  
+
   /// Default notification height
   static const double heightDefault = 62.0;
-  
+
   /// Expanded notification height (with actions/extra content)
   static const double heightExpanded = 100.0;
-  
+
   /// Large expanded height (full content view)
   static const double heightLarge = 130.0;
 
   /// Maximum width ratio to screen
   static const double maxWidthRatio = 0.95;
-  
+
   /// Collapsed width (pill shape)
   static const double collapsedWidth = 126.0;
 
@@ -150,7 +150,7 @@ class SmartSnackSpacing {
 
   /// Top offset from screen edge
   static const double topOffset = 11.0;
-  
+
   /// Bottom offset from screen edge
   static const double bottomOffset = 34.0;
 }
@@ -161,34 +161,34 @@ class SmartSnackDurations {
 
   /// Quick micro-interactions
   static const Duration micro = Duration(milliseconds: 100);
-  
+
   /// Fast transitions
   static const Duration fast = Duration(milliseconds: 200);
-  
+
   /// Default animation duration
   static const Duration normal = Duration(milliseconds: 350);
-  
+
   /// Slower, more dramatic animations
   static const Duration slow = Duration(milliseconds: 500);
-  
+
   /// Spring animation duration
   static const Duration spring = Duration(milliseconds: 650);
-  
+
   /// Morph/transform animations
   static const Duration morph = Duration(milliseconds: 450);
-  
+
   /// Loading border animation cycle
   static const Duration loadingCycle = Duration(milliseconds: 1800);
-  
+
   /// Shimmer animation cycle
   static const Duration shimmerCycle = Duration(milliseconds: 1500);
 
   /// Default snack display duration
   static const Duration defaultDisplay = Duration(seconds: 3);
-  
+
   /// Short display duration
   static const Duration shortDisplay = Duration(seconds: 2);
-  
+
   /// Long display duration
   static const Duration longDisplay = Duration(seconds: 5);
 }
@@ -199,19 +199,19 @@ class SmartSnackCurves {
 
   /// Bouncy spring curve for entrance
   static const Curve springIn = Curves.elasticOut;
-  
+
   /// Smooth exit curve
   static const Curve smoothOut = Curves.easeOutCubic;
-  
+
   /// Fast overshoot for micro-interactions
   static const Curve overshoot = Curves.easeOutBack;
-  
+
   /// Smooth ease for state changes
   static const Curve stateChange = Curves.easeInOutCubic;
-  
+
   /// Deceleration curve
   static const Curve decelerate = Curves.decelerate;
-  
+
   /// Emphasis curve for important animations
   static const Curve emphasis = Curves.easeOutExpo;
 }

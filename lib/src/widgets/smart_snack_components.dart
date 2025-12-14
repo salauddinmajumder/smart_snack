@@ -188,9 +188,11 @@ class _PulsingIndicatorState extends State<PulsingIndicator>
     return AnimatedBuilder(
       animation: _controller,
       builder: (context, child) {
-        final scale = 0.8 + 0.4 * (0.5 + 0.5 * (_controller.value * 3.14159 * 2).cos());
-        final opacity = 0.5 + 0.5 * (0.5 + 0.5 * (_controller.value * 3.14159 * 2).sin());
-        
+        final scale =
+            0.8 + 0.4 * (0.5 + 0.5 * (_controller.value * 3.14159 * 2).cos());
+        final opacity =
+            0.5 + 0.5 * (0.5 + 0.5 * (_controller.value * 3.14159 * 2).sin());
+
         return Transform.scale(
           scale: scale,
           child: Container(
@@ -296,7 +298,7 @@ class _CheckmarkPainter extends CustomPainter {
       ..style = PaintingStyle.stroke;
 
     final path = Path();
-    
+
     // Checkmark points (normalized 0-1)
     const p1 = Offset(0.2, 0.55);
     const p2 = Offset(0.4, 0.75);
@@ -418,7 +420,7 @@ class _XMarkPainter extends CustomPainter {
       ..style = PaintingStyle.stroke;
 
     final margin = size.width * 0.2;
-    
+
     // First line (top-left to bottom-right)
     if (progress > 0) {
       final p = (progress * 2).clamp(0.0, 1.0);
@@ -762,8 +764,7 @@ class _CountdownTimerState extends State<CountdownTimer>
     );
 
     _controller.addListener(() {
-      final newSeconds =
-          ((1 - _controller.value) * widget.seconds).ceil();
+      final newSeconds = ((1 - _controller.value) * widget.seconds).ceil();
       if (newSeconds != _remainingSeconds) {
         setState(() {
           _remainingSeconds = newSeconds;

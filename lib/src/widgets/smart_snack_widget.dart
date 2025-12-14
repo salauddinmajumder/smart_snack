@@ -158,8 +158,9 @@ class _SmartSnackWidgetState extends State<SmartSnackWidget>
 
   Color _getAccentColor() {
     if (_currentRequest == null) return SmartSnackColors.neutral400;
-    if (_currentRequest!.accentColor != null)
+    if (_currentRequest!.accentColor != null) {
       return _currentRequest!.accentColor!;
+    }
 
     switch (_currentRequest!.style) {
       case SmartSnackStyle.success:

@@ -14,7 +14,7 @@ class SmartSnackColors {
   static const Color successLight = Color(0xFF34D399);
   static const Color successDark = Color(0xFF059669);
   static const Color successSurface = Color(0xFF0D3D2C);
-  
+
   /// Error Red - Attention-grabbing but not aggressive
   static const Color error = Color(0xFFEF4444);
   static const Color errorLight = Color(0xFFF87171);
@@ -41,7 +41,7 @@ class SmartSnackColors {
   // ═══════════════════════════════════════════════════════════════════════════
   // NEUTRAL PALETTE
   // ═══════════════════════════════════════════════════════════════════════════
-  
+
   static const Color neutral900 = Color(0xFF0A0A0A);
   static const Color neutral800 = Color(0xFF171717);
   static const Color neutral700 = Color(0xFF262626);
@@ -56,11 +56,11 @@ class SmartSnackColors {
   // ═══════════════════════════════════════════════════════════════════════════
   // BACKGROUND COLORS
   // ═══════════════════════════════════════════════════════════════════════════
-  
+
   /// Primary dark background with slight transparency for glass effect
   static const Color backgroundDark = Color(0xF5141414);
   static const Color backgroundDarkSolid = Color(0xFF141414);
-  
+
   /// Glass morphism background
   static Color glassBackground = Colors.white.withValues(alpha: 0.08);
   static Color glassBorder = Colors.white.withValues(alpha: 0.12);
@@ -146,7 +146,7 @@ class SmartSnackColors {
 
   static const Color iconPrimary = Color(0xFFFAFAFA);
   static const Color iconSecondary = Color(0xFFA3A3A3);
-  
+
   // ═══════════════════════════════════════════════════════════════════════════
   // HELPER METHODS
   // ═══════════════════════════════════════════════════════════════════════════
