@@ -1,6 +1,6 @@
 name: smart_snack
 description: "A beautiful, feature-rich Dynamic Island-style notification system for Flutter. Premium animations, glass morphism, gradient effects, priority queues, haptic feedback, and more."
-version: 1.0.5
+version: 1.0.7
 homepage: https://github.com/salauddinmajumder/smart_snack
 repository: https://github.com/salauddinmajumder/smart_snack
 issue_tracker: https://github.com/salauddinmajumder/smart_snack/issues
@@ -14,25 +14,25 @@ topics:
   - ui
 
 screenshots:
-  - description: 'Success - Green checkmark payment confirmation'
+  - description: 'Payment Successful - $50.00 sent to Sarah with green checkmark'
     path: screenshots/success.png
-  - description: 'Error - Red X connection failure notification'
+  - description: 'Connection Failed - Please check your internet with red X'
     path: screenshots/error.png
-  - description: 'Loading - Animated rainbow gradient border sync notification'
+  - description: 'Syncing data - Animated rainbow gradient border loading spinner'
     path: screenshots/loading.png
-  - description: 'Glass Morphism - Frosted glass blur AirDrop notification'
+  - description: 'AirDrop Received - Photo from iPhone nearby with glass blur effect'
     path: screenshots/glass_morphism.png
-  - description: 'Now Playing - Music player notification with audio wave animation'
+  - description: 'Blinding Lights by The Weeknd - Music player with audio visualizer'
     path: screenshots/now_playing.png
-  - description: 'Incoming Call - Action buttons with accept/decline options'
+  - description: 'Sarah Wilson Incoming Call - Accept and decline action buttons'
     path: screenshots/incoming_call.png
-  - description: 'Message Notification - Chat-style with avatar and emoji support'
+  - description: 'New message from Alex - Hey! Are you free tonight? with avatar'
     path: screenshots/message.png
-  - description: 'Face ID - Rainbow gradient border authentication notification'
+  - description: 'Face ID authentication - Rainbow gradient border animation'
     path: screenshots/face_id.png
-  - description: 'Gradient Banner - Premium unlocked celebration notification'
+  - description: 'Premium Unlocked! - Vibrant gradient celebration banner'
     path: screenshots/gradient_banner.png
-  - description: 'Action Button - Undo deleted item with interactive button'
+  - description: 'Item deleted - Interactive Undo button to restore'
     path: screenshots/undo_action.png
 
 funding:

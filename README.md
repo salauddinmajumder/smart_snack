@@ -91,7 +91,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  smart_snack: ^1.0.0
+  smart_snack: ^1.0.7
 ```
 
 Then run:
