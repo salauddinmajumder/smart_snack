@@ -1,10 +1,10 @@
 name: smart_snack
 description: "A beautiful, feature-rich Dynamic Island-style notification system for Flutter. Premium animations, glass morphism, gradient effects, priority queues, haptic feedback, and more."
-version: 1.0.1
-homepage: https://github.com/salauddin-majumder/smart_snack
-repository: https://github.com/salauddin-majumder/smart_snack
-issue_tracker: https://github.com/salauddin-majumder/smart_snack/issues
-documentation: https://github.com/salauddin-majumder/smart_snack#readme
+version: 1.0.2
+homepage: https://github.com/salauddinmajumder/smart_snack
+repository: https://github.com/salauddinmajumder/smart_snack
+issue_tracker: https://github.com/salauddinmajumder/smart_snack/issues
+documentation: https://github.com/salauddinmajumder/smart_snack#readme
 
 topics:
   - notification
@@ -52,7 +52,7 @@ screenshots:
     path: screenshots/minimal.png
 
 funding:
-  - https://github.com/sponsors/salauddin-majumder
+  - https://github.com/sponsors/salauddinmajumder
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
