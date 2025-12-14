@@ -1,0 +1,70 @@
+name: smart_snack
+description: "A beautiful, feature-rich Dynamic Island-style notification system for Flutter. Premium animations, glass morphism, gradient effects, priority queues, haptic feedback, and more."
+version: 1.0.1
+homepage: https://github.com/salauddin-majumder/smart_snack
+repository: https://github.com/salauddin-majumder/smart_snack
+issue_tracker: https://github.com/salauddin-majumder/smart_snack/issues
+documentation: https://github.com/salauddin-majumder/smart_snack#readme
+
+topics:
+  - notification
+  - snackbar
+  - toast
+  - dynamic-island
+  - ui
+
+screenshots:
+  - description: 'Now Playing - Music player notification with audio wave animation'
+    path: screenshots/now_playing.png
+  - description: 'Incoming Call - Action buttons with accept/decline options'
+    path: screenshots/incoming_call.png
+  - description: 'Message Notification - Chat-style with avatar and emoji support'
+    path: screenshots/message.png
+  - description: 'Action Button - Undo deleted item with interactive button'
+    path: screenshots/undo_action.png
+  - description: 'High Priority - Urgent notification with lightning icon'
+    path: screenshots/high_priority.png
+  - description: 'Bottom Position - Notification displayed at screen bottom'
+    path: screenshots/bottom_position.png
+  - description: 'Swipe to Dismiss - Gesture-based dismissal with arrow indicator'
+    path: screenshots/swipe_dismiss.png
+  - description: 'Device Connected - AirPods notification with battery indicator'
+    path: screenshots/device_connected.png
+  - description: 'Screenshot Saved - System-style tap to view notification'
+    path: screenshots/screenshot_saved.png
+  - description: 'Face ID - Rainbow gradient border authentication notification'
+    path: screenshots/face_id.png
+  - description: 'Success - Green checkmark payment confirmation'
+    path: screenshots/success.png
+  - description: 'Error - Red X connection failure notification'
+    path: screenshots/error.png
+  - description: 'Warning - Orange alert low battery notification'
+    path: screenshots/warning.png
+  - description: 'Info - Blue information update available notification'
+    path: screenshots/info.png
+  - description: 'Loading - Animated rainbow gradient border sync notification'
+    path: screenshots/loading.png
+  - description: 'Glass Morphism - Frosted glass blur AirDrop notification'
+    path: screenshots/glass_morphism.png
+  - description: 'Gradient Banner - Premium unlocked celebration notification'
+    path: screenshots/gradient_banner.png
+  - description: 'Minimal - Clean and simple clipboard notification'
+    path: screenshots/minimal.png
+
+funding:
+  - https://github.com/sponsors/salauddin-majumder
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
