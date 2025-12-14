@@ -3,7 +3,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Flutter-blue?logo=flutter" alt="Platform"/>
   <img src="https://img.shields.io/badge/Dart-%3E%3D3.0.0-blue?logo=dart" alt="Dart"/>
-  <img src="https://img.shields.io/badge/License-MIT-green" alt="License"/>
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen" alt="PRs Welcome"/>
 </p>
 
@@ -398,10 +397,6 @@ Contributions are welcome! Please read our contributing guidelines before submit
 5. Open a Pull Request
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
